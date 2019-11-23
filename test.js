@@ -5,7 +5,11 @@ class Test extends Component {
 
     render() {
 
-        return <div> Test </div>
+        return <div>
+
+
+            New test update
+             </div>
     }
 }
 
