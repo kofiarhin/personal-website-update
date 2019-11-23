@@ -1,0 +1,74 @@
+Full Stack Developer
+
+Become a full-stack developer to write different kinds of code that handle frontend and backend tasks.
+
+Two million computer programming jobs are estimated to be created around the world by 2020 - thanks to unprecedented growth in the tech sector.
+
+I will pinpoint the key skills needed for the most in-demand jobs and develop courses and diplomas to you in those areas. That’s why I have developed this two months full stack web development bootcamp, which will be 90% practical and 10% theory as well as dedicated mentorship. 
+
+
+What will I do as a full-stack developer?
+
+The full-stack developer can handle both backend and frontend tasks, although they may not necessarily be an expert in either. If you're torn between learning multiple technologies, this might be the path for you! Full-stack developers may:
+
+        Build a site backend in programming languages such as Node or PHP
+        Use front-end libraries or frameworks
+        Manage application deployment and put projects on servers
+        Perform sys admin tasks
+        Run SQL queries on databases
+
+How much will I earn?
+Here is a list of selected countries:
+
+    United States
+
+    Beginner: $50,000 - $80,000
+
+    2-5 years: $70,000 - $90,000
+
+    5+ years: $100,000 +
+
+    United Kingdom
+
+    Beginner: £30,000 - £40,000 
+
+    2-5 years: £40,000 - £60,000
+
+    5+ years: £60,000 +
+
+What are my job prospects?
+This path can prepare you for the following jobs:
+    Full-stack developer
+    Junior front-end developer
+    Junior back-end developer
+
+Who is eligible to enroll?
+This path is accessible to all, but here are some recommendations:
+    A high school diploma 
+    A good level of English (
+    Access to a computer (PC or Mac), headphones, a webcam
+    Internet access
+
+What will I learn?
+In this path, you'll learn how to:
+    Web development  Fundamentals HTML/CSS 
+    Create web projects with JavaScript
+    Use React, a popular JavaScript library
+    Write backend Nodejs/Php code
+    Create  Nodejs/Php applications
+    Integrate Reactjs with  Nodejs
+    Query a database (mongodb/mysql) that uses and stores information
+    Deploy a website online
+    Write project documentation
+    Optimize performance
+    Analyze a project and choose a technical solution
+    Design technical architecture using UML diagrams
+
+How will I learn ?
+The learning method is unique and revolves around two elements: professional projects and dedicated mentoring sessions
+
+Projects
+The learning is project-driven because that’s the fastest way to become proficient. Projects offer hands-on experience so you can hit the ground running when you start your new job.  
+
+Mentorship
+During your path, you will have 2 hours mentoring session a week, offering  one-to-one support in person or  via weekly video conference . This mentoring session will offer guidance on your projects, help define objectives and guide you until you reach them. 

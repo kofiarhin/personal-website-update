@@ -1,0 +1,67 @@
+$main: #8530D9
+.banner
+    background: rgba($main, 0.4)
+    padding: 8rem 4rem
+    .cta
+        display: inline-block
+        background: $main
+        padding: 1rem 2rem
+        color: white
+        margin-bottom: 1rem
+    .slug
+        font-size: 1.2rem
+.training .content
+    padding-top: 2rem
+    padding-bottom: 2rem 
+    width: 700px
+    max-width: 90%
+    margin: 0 auto
+    h2
+        font:
+            weight: 300
+            size: 2rem
+        margin-bottom: 1rem
+        margin-top: 2rem
+
+    p
+        font-size: 1rem
+        line-height: 1.4
+        margin-bottom: 1rem
+    ul
+        padding-left: 2rem
+        margin-left: 2rem
+        li
+            margin-bottom: 0.8rem
+            positioN: relative
+            &:before
+                content: ""
+                display: block
+                width: 8px 
+                height: 8px
+                background: $main
+                position: absolute
+                left: -1.3rem
+                border-radius: 50%
+                top: 50%
+                transform: translateY(-50%)
+            &.head
+                font:
+                    weight: 700
+                    size: 1.2rem
+                &:before
+                    content: ""
+                    display: none
+
+@media(max-width: 400px)
+    .training
+        .banner 
+            padding: 2rem 2rem
+            .cta
+                font-size: 1.2rem
+            .slug
+                font-size: 1rem
+
+
+        .content
+            h2
+                font-size: 1.6rem

@@ -1,0 +1,210 @@
+
+//ABOUT ME  --- COPY ANDY STERKOWITZ
+Hi, I'm Andy Sterkowitz. I help people land their dream job as a software developer.
+I taught myself to code in 2014 and have obsessed with helping others do the same.
+
+Some might call me a full stack developer in that I work in everything from HTML/CSS, Javascript, C# and SQL. My true love is building new applications and application features that result in an awesome user interaction.
+
+If I'm not working on a computer you can find me relieving stress at the gym, watching an NBA game or traveling the planet.
+
+Interested in hearing about how I got into software development? Listen to my story by 
+
+
+//ABOUT ME DRAFT
+
+Hi, I'm Kofi Arhin. I help people develop and create their own custom web applicataions, using state of the art programming languages like React/Lavarel. I taught myself to code in 2014 and have obsessed with helping others create their own custom web applications with zero programming background!
+
+Some might call me a full stack developer in that i work in everything from plain vanilla javascript to React Js, Node Js, MongoDB, Redux.....My true love is building new applications and application features that result in an awesome user interaction.
+
+If I'm not working on a computer you can find me relieving stress at the gym, watching an NBA game or traveling the planet.
+
+Have an awesome project idea ? ..... Let's Talk!!
+
+
+Hire Me
+
+
+Copyright 2018 Andy Sterkowitz | All Rights Reserved
+
+
+
+//////TRAINING
+
+//template url : https://openclassrooms.com/en/paths/104-full-stack-developer
+
+Are you in?
+Start your future today with a Nanodegree program in Programming.
+
+world class education. Resume ready result
+Skill up now for the tech role you deserve. From programming for beginners to a full-blown Full Stack course, our industry-recognized curriculum will help grow your coding career. 
+
+Full-Stack Developer
+Become a full-stack developer to write different kinds of code that handle frontend and backend tasks.
+
+
+One million computer programming jobs are estimated to be created in the U.S. by 2020 - as well as 700,000 in Europe - thanks to unprecedented growth in the tech sector.
+
+Here at OpenClassrooms, we pinpoint the key skills needed for the most in-demand jobs and develop courses and diplomas to train our students in those areas. That’s why we've developed this one-year bachelor’s-level diploma in web development, which you can complete entirely online with the help of a dedicated mentor
+
+What will I do as a full-stack developer?
+The full-stack developer can handle both backend and frontend tasks, although they may not necessarily be an expert in either. If you're torn between learning multiple technologies, this might be the path for you! Full-stack developers may:
+
+Build a site backend in programming languages such as Ruby
+Use front-end libraries or frameworks
+Manage application deployment and put projects on servers
+Perform sysadmin tasks
+Run SQL queries on databases
+
+
+How much will I earn?
+Web development can be a lucrative career with many prospects opening up as you continue to rack up valuable experience. Here is what you might expect to earn in your career as a full-stack web developer:
+
+United States
+
+Beginner: $50,000 - $80,000
+
+2-5 years: $70,000 - $90,000
+
+5+ years: $100,000 +
+
+United Kingdom
+
+Beginner: £30,000 - £40,000 
+
+2-5 years: £40,000 - £60,000
+
+5+ years: £60,000 + 
+
+
+What are my job prospects?
+This path can prepare you for the following jobs:
+
+Full-stack developer
+Junior front-end developer
+Junior back-end developer
+
+Who is eligible to enroll?
+ This path is accessible to all, but here are some recommendations:
+
+A high school diploma / GCSE level
+A good level of English (for non-native speakers, a CEFR level of B2, an IELTS band score of 6.5, or a TOEFL score of 80 is recommended)
+Access to a computer (PC or Mac), headphones, a webcam
+Internet access
+
+
+What will I learn?
+In this path, you'll learn how to:
+
+Create web projects with JavaScript
+Use React, a popular JavaScript library
+Write backend Ruby code
+Create Ruby on Rails applications
+Integrate React with Ruby on Rails
+Query a database that uses and stores information
+Deploy a website online
+Implement unit and integration tests
+Write project documentation
+Optimize performance
+Analyze a project and choose a technical solution
+Design technical architecture using UML diagrams
+
+
+How will I learn at OpenClassrooms?
+Our learning method is unique and revolves around two elements: professional projects and dedicated mentoring sessions.
+
+Projects
+At OpenClassrooms, learning is project-driven because that’s the fastest way to become proficient. Projects offer hands-on experience so you can hit the ground running when you start your new job.  
+
+Want to see an example of a project? Read our blog post here.
+
+Mentorship
+During your path, you will be assigned a mentor who will offer one-to-one support via weekly video conference sessions. This mentor will offer guidance on your projects, help define objectives and guide you until you reach them. Our mentors are dedicated professionals who are experts in their field and have experience in sharing their know-how with our students.
+
+
+Your Job Guarantee
+At OpenClassrooms we are committed to helping you find your ideal job. We promise.
+
+By following the learning path "Full-Stack Developer", you’ll learn an exciting new profession with great career prospects.
+
+What’s more, you’ll find a job within six months of graduating or we’ll give you your money back!
+
+Start toward the career of your dreams
+
+
+
+///////TRAINING
+
+Full Stack Developer
+
+Become a full-stack developer to write different kinds of code that handle frontend and backend tasks.
+
+Two million computer programming jobs are estimated to be created around the world by 2020 - thanks to unprecedented growth in the tech sector.
+
+I will pinpoint the key skills needed for the most in-demand jobs and develop courses and diplomas to you in those areas. That’s why I have developed this two months full stack web development bootcamp, which will be 90% practical and 10% theory as well as dedicated mentorship. 
+
+
+What will I do as a full-stack developer?
+
+A full-stack developer can handle both backend and frontend tasks, although they may not necessarily be an expert in either. If you're torn between learning multiple technologies, this might be the path for you! Full-stack developers may:
+
+        Build a site backend in programming languages such as Node or PHP
+        Use front-end libraries or frameworks
+        Manage application deployment and put projects on servers
+        Perform sys admin tasks
+        Run SQL queries on databases
+
+How much will I earn?
+Here is a list of selected countries:
+
+    United States
+
+    Beginner: $50,000 - $80,000
+
+    2-5 years: $70,000 - $90,000
+
+    5+ years: $100,000 +
+
+    United Kingdom
+
+    Beginner: £30,000 - £40,000 
+
+    2-5 years: £40,000 - £60,000
+
+    5+ years: £60,000 +
+
+What are my job prospects?
+This path can prepare you for the following jobs:
+    Full-stack developer
+    Junior front-end developer
+    Junior back-end developer
+
+Who is eligible to enroll?
+This path is accessible to all, but here are some recommendations:
+    A high school diploma 
+    A good level of English 
+    Access to a computer (PC or Mac), headphones, a webcam
+    Internet access
+
+What will I learn?
+In this path, you'll learn how to:
+    Web development  Fundamentals HTML/CSS 
+    Create web projects with JavaScript
+    Use React, a popular JavaScript library
+    Write backend Nodejs/Php code
+    Create  Nodejs/Php applications
+    Integrate Reactjs with  Nodejs
+    Query a database (mongodb/mysql) that uses and stores information
+    Deploy a website online
+    Write project documentation
+    Optimize performance
+    Analyze a project and choose a technical solution
+    Design technical architecture using UML diagrams
+
+How will I learn ?
+The learning method is unique and revolves around two elements: professional projects and dedicated mentoring sessions
+
+Projects
+The learning is project-driven because that’s the fastest way to become proficient. Projects offer hands-on experience so you can hit the ground running when you start your new job.  
+
+Mentorship
+During your path, you will have 2 hours mentoring session a week, offering  one-to-one support in person or  via weekly video conference . This mentoring session will offer guidance on your projects, help define objectives and guide you until you reach them. 

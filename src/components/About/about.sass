@@ -1,0 +1,50 @@
+$secondary: #5433D5
+.about
+    padding-bottom: 3rem
+    min-height: 100vh
+.about .main-header
+    background: $secondary
+.about  .about-wrapper
+.about-content
+    padding-top: 2rem
+    width: 800px
+    .about-wrapper
+        display: flex
+        align-items: center
+    .main-title
+        margin-bottom: 1rem
+    .face-unit
+        width: 200px
+        height: 200px
+        background: 
+            image: url("/images/me.jpg")
+            size: cover
+            position: center
+        margin-right: 2rem
+        border-radius: 50%
+    .content
+        flex: 1
+    .content p
+        margin-bottom: 1rem
+        font-size: 1.1rem
+        line-height: 1.4
+    .content a
+        display: inline-block
+        background: $secondary
+        padding: 0.8rem 3rem
+        color: white
+        font-size: 1.1rem
+
+@media(max-width: 960px)
+    .main-title
+            text-align: center
+            margin-bottom: 2rem
+    .about .about-wrapper
+        display: block
+        text-align: center
+        .face-unit
+            margin: 0 auto 2rem
+        
+@media(max-width: 540px)
+    .footer
+        padding: 1rem
