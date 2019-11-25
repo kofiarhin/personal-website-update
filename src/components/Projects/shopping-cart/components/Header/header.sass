@@ -5,6 +5,27 @@
     padding:  3rem 2rem
     background: white
     color: black
+    .menu
+        font-size: 2rem
+        color: black
+        cursor: pointer
+        display: none
     nav a
         margin-left: 1rem
         color: black
+
+.sideNav
+    background: pink
+    transform: translateX(-50%)
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+
+@media(max-width: 650px)
+    .shop-header
+        nav
+            display: none
+        .menu
+            display: block

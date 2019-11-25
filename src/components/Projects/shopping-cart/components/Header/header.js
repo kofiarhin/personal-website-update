@@ -8,6 +8,18 @@ const { Header } = Layout;
 class MainHeader extends Component {
 
 
+    showSideNav = () => {
+
+        console.log("show side nav")
+    }
+
+
+    renderSideNav = () => {
+
+        return <div className="sideNav"> Side Nav</div>
+
+    }
+
     render() {
 
         return <div>
@@ -15,6 +27,7 @@ class MainHeader extends Component {
             <Header className="shop-header">
 
                 <Link to="/projects/shopping-cart"> <h1 className="logo"> Esco Shop </h1></Link>
+                <Link><i className="fa fa-bars menu" onClick={() => this.showSideNav()}> </i></Link>
                 <nav className="links">
                     <Link to="/projects/shopping-cart"> Home</Link>
                     <Link to="/projects/shopping-cart/login"> Login </Link>
@@ -23,7 +36,8 @@ class MainHeader extends Component {
                 </nav>
             </Header>
 
-
+            ijgjgdsvf
+            
         </div>
     }
 }

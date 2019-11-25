@@ -13,13 +13,14 @@
             position: absolute
             top: 50%
             left: 50%
-            transform: translate(-50%, -120%)
+            transform: translate(-50%, -100%)
             text-align: center
         .content .intro
             color: white
             font:
                 size: 3rem
                 weight: 300
+            margin-bottom: 3rem
         .content input
             width: 100%
             padding: 1rem
@@ -27,6 +28,15 @@
             font-size: 1.5rem
             color: black
         
+
+@media( max-width: 650px)
+    .landing .overlay 
+        .content
+            width: 80%
+            .intro
+                font-size: 2rem
+            input
+                font-size: 1rem
 
 
 
