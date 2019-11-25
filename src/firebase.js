@@ -2,8 +2,6 @@ import * as firebase from "firebase";
 import config from "./config";
 
 
-console.log(config)
-
 
 const firebaseConfig = {
     apiKey: config.firebase.apiKey,

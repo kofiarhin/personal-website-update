@@ -13,6 +13,10 @@ import FoodDelivery from "./components/Projects/food-delivery";
 import ShoppingCart from "./components/Projects/shopping-cart";
 import CartLogin from "./components/Projects/shopping-cart/components/Login";
 import CartRegister from "./components/Projects/shopping-cart/components/Register";
+import Search from "./components/Projects/shopping-cart/components/Search/search";
+import Dashboard from "./components/Projects/shopping-cart/components/User/Dashboard/dashboard";
+import AddProduct from "./components/Projects/shopping-cart/components/Products/addProduct";
+
 
 const Routes = () => {
 
@@ -28,8 +32,11 @@ const Routes = () => {
                 <Route path="/chat" exact component={Chat} />
                 <Route path="/projects/food-delivery" exact component={FoodDelivery} />
                 <Route path="/projects/shopping-cart" exact component={ShoppingCart} />
+                <Route path="/projects/shoppingCart/user/dashboard" exact component={Dashboard} />
+                <Route path="/projects/shopping-cart/search/" exact component={Search} />
                 <Route path="/projects/shopping-cart/login" exact component={CartLogin} />
                 <Route path="/projects/shopping-cart/register" exact component={CartRegister} />
+                <Route path="/projects/shoppingCart/products/add" exact component={AddProduct} />
                 <Route path="/projects" exact component={Projects} />
                 <Route path="/" exact component={Home} />
             </Switch>

@@ -1,14 +1,76 @@
 import React from "react";
 import Header from "../Header/header";
-
+import { firebase, firebaseLooper } from "../../../../../firebase";
 import { Form, Icon, Input, Button, Checkbox } from 'antd';
+import _ from "lodash";
 
 class Login extends React.Component {
+
+    state = {
+
+        users: []
+    }
+
+    async   componentDidMount() {
+
+        //get list of users
+        const users = await firebase.database().ref("shoppingCart/users").once("value").then(snapshot => {
+
+            return firebaseLooper(snapshot)
+        });
+
+
+        //check if users empty
+        if (!_.isEmpty(users)) {
+
+            this.setState({
+
+                users
+            })
+        }
+
+
+
+    }
+
+
     handleSubmit = e => {
         e.preventDefault();
+
+        const users = this.state.users;
         this.props.form.validateFields((err, values) => {
             if (!err) {
-                console.log('Received values of form: ', values);
+
+
+                const user = users.find(user => {
+
+                    return user.email = values.email;
+                });
+
+
+
+                if (!_.isEmpty(user)) {
+
+
+                    const { email, name, phone, role } = user;
+
+                    const userData = {
+                        email,
+                        name,
+                        phone,
+                        role
+                    }
+
+
+                    const dataToStore = JSON.stringify(userData);
+
+                    sessionStorage.setItem('userData', dataToStore);
+
+                    this.props.history.push("/projects/shoppingCart/user/dashboard");
+                }
+
+
+
             }
         });
     };
@@ -23,14 +85,16 @@ class Login extends React.Component {
 
                 <div className="form-container">
 
+                    <h1 className="main-title text-center">Login</h1>
+
                     <Form onSubmit={this.handleSubmit} className="login-form">
                         <Form.Item>
-                            {getFieldDecorator('username', {
-                                rules: [{ required: true, message: 'Please input your username!' }],
+                            {getFieldDecorator('email', {
+                                rules: [{ required: true, message: 'Please input your email!' }],
                             })(
                                 <Input
-                                    prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
-                                    placeholder="Username"
+                                    prefix={<Icon type="mail" style={{ color: 'rgba(0,0,0,.25)' }} />}
+                                    placeholder="Email"
                                 />,
                             )}
                         </Form.Item>

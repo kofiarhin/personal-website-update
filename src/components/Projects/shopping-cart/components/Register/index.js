@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header/header";
+import { firebase } from "../../../../../firebase";
 
 import {
     Form,
@@ -43,7 +44,17 @@ class Register extends React.Component {
         e.preventDefault();
         this.props.form.validateFieldsAndScroll((err, values) => {
             if (!err) {
-                console.log('Received values of form: ', values);
+
+
+                //set role to customer
+                values['role'] = "customer";
+
+                //add user to databse
+                firebase.database().ref('shoppingCart/users').push(values).then(() => {
+
+                    //redirect to dashboard
+                    this.props.history.push("/projects/shopping-cart/login");
+                })
             }
         });
     };
