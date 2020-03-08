@@ -22,6 +22,7 @@ const Nav = (props) => {
                 <li> <Link to="/"> Home</Link></li>
                 <li> <Link to="/about"> About Me</Link></li>
                 <li> <Link to="/training"> Course</Link></li>
+                <li> <Link to="/projects"> Projects</Link></li>
             </ul>
 
         </SideNav>

@@ -25,22 +25,15 @@ const Projects = () => {
                 <div className="projects-wrapper">
 
 
-                    <div className="project-unit">
-                        <div className="avatar" style={{
-                            backgroundImage: `url("https://carlisletheacarlisletheatre.org/images/cart-clipart-icon-5.jpg")`
-                        }}></div>
-
-                        <h2 className="name">Shopping Cart</h2>
-                        <Link to="/projects/shopping-cart" className="cta"> View Demo </Link>
-                    </div>
-
 
                     <div className="project-unit">
                         <div className="avatar" style={{
-                            backgroundImage: `url(${foodUrl})`,
+                            backgroundImage: "url(./images/food-delivery.png)",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center"
                         }}></div>
                         <h2 className="name">Food Delivery System</h2>
-                        <Link to="/projects/food-delivery" className="cta"> View Demo </Link>
+                        <a href="https://sheltered-retreat-60921.herokuapp.com/" target="_blank" className="cta"> View Demo </a>
                     </div>
 
 

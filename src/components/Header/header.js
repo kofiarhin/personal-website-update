@@ -38,6 +38,7 @@ class Header extends Component {
                     <Link to="/"> Home </Link>
                     <Link to="/about"> About Me </Link>
                     <Link to="/training"> Course </Link>
+                    <Link to="/projects"> Projects </Link>
                     {/* <Link to="/mentorship"> Mentorship </Link> */}
 
                 </nav>
