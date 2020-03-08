@@ -14,15 +14,11 @@ const Training = () => {
 
         <div className="training">
 
-            <div className="banner">
-
-                <h1 className="cta"> Full Stack Developer </h1>
-                <p className="slug">Become a full-stack developer to write different kinds of code that handle frontend and backend tasks.</p>
-
-            </div>
 
 
             <div className="content">
+                <h1 className="cta"> Full Stack Developer Course </h1>
+                <p className="slug">Become a full-stack developer to write different kinds of code that handle frontend and backend tasks.</p>
 
                 <p>
                     Two million computer programming jobs are estimated to be created around the world by 2020 - thanks to unprecedented growth in the tech sector.

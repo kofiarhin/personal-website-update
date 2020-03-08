@@ -25,10 +25,10 @@ const About = () => {
                     <div className="content">
 
 
-                        <p> Hi, I'm Kofi Arhin. I help people develop and create their own custom web applicataions, using state of the art programming languages like React/Lavarel. I taught myself to code in 2014 and have obsessed with helping others create their own custom web applications with zero programming background!</p>
+                        <p> Hi, I'm Kofi Arhin. I help people develop and create their own custom web applicataions, using state of the art programming languages like React/React Native. I taught myself to code in 2014 and have obsessed with helping others create their own custom web applications with zero programming background!</p>
 
                         <p>
-                            Some might call me a full stack developer in that i work in everything from plain vanilla javascript to React Js, Node Js, MongoDB, Redux.....My true love is building new applications and application features that result in an awesome user interaction.</p>
+                            Some might call me a full stack developer in that I work in everything from plain vanilla javascript to React/React Native, Node Js, MongoDB, Redux.....My true love is building new applications and application features that result in an awesome user interaction.</p>
 
                         <p> If I'm not working on a computer you can find me relieving stress at the gym, watching an NBA game or traveling the planet. </p>
 
@@ -37,7 +37,8 @@ const About = () => {
                             Have an awesome project idea ? ..... Let's Talk!!
                     </p>
 
-                        <Link to="/contact">Hire Me</Link>
+                        {/* <Link to="/contact">Hire Me</Link> */}
+                        <a href="mailto: kofiarhin69@gmail.com"> Hire Me</a>
 
                     </div>
 
@@ -46,9 +47,11 @@ const About = () => {
 
             </div>
 
+            <Footer />
+
         </div>
 
-        <Footer />
+
 
 
     </div>

@@ -1,50 +1,62 @@
+//colors
+$main: #8530D9
 $secondary: #5433D5
-.about
-    padding-bottom: 3rem
-    min-height: 100vh
-.about .main-header
-    background: $secondary
-.about  .about-wrapper
-.about-content
-    padding-top: 2rem
-    width: 800px
-    .about-wrapper
-        display: flex
-        align-items: center
-    .main-title
-        margin-bottom: 1rem
-    .face-unit
-        width: 200px
-        height: 200px
-        background: 
-            image: url("/images/me.jpg")
-            size: cover
-            position: center
-        margin-right: 2rem
-        border-radius: 50%
-    .content
-        flex: 1
-    .content p
-        margin-bottom: 1rem
-        font-size: 1.1rem
-        line-height: 1.4
-    .content a
-        display: inline-block
-        background: $secondary
-        padding: 0.8rem 3rem
-        color: white
-        font-size: 1.1rem
 
-@media(max-width: 960px)
-    .main-title
-            text-align: center
-            margin-bottom: 2rem
-    .about .about-wrapper
+.about
+    flex: 1
+    height: 100vh
+
+.about-wrapper
+    display: flex
+.face-unit
+    width: 300px
+    height: 300px
+    background-color: pink
+    margin-right: 20px
+    background-image: url("/images/me.jpg")
+    background-size: cover
+    background-position: center
+.content
+    flex: 1
+    p
+        font-size: 1.5rem
+        line-height: 1.4
+    a
         display: block
+        background-color: $main
+        width: 40%
+        padding: 20px 0px
+        margin: 20px auto
         text-align: center
+        color: white
+        font-size: 2rem
+        transition: all ease-in-out 300ms
+        border: 2px solid transparent
+        margin-top: 50px
+        &:hover
+            background-color: white
+            color: rgba(black, .8)
+            border: 2px solid rgba(black, 0.2)
+
+@media(max-width: 900px)
+    .about-wrapper
+        display: block
         .face-unit
-            margin: 0 auto 2rem
-        
-@media(max-width: 540px)
-    .footer
-        padding: 1rem
+            margin: 0 auto 3rem
+            border-radius: 50%
+        .content p
+            text-align: center
+        .content a
+
+@media(max-width: 400px)
+    .about
+        .face-unit
+            width: 200px
+            height: 200px
+            margin-bottom: 2rem
+        .content p
+            font-size: 1.2rem
+            text-align: left
+        .content a
+            font-size: 1.2rem
+            width: 100%

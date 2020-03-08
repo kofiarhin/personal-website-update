@@ -21,8 +21,7 @@ const Nav = (props) => {
             <ul className="sidenav-items">
                 <li> <Link to="/"> Home</Link></li>
                 <li> <Link to="/about"> About Me</Link></li>
-                <li> <Link to="/training"> Training</Link></li>
-                <li> <Link to="/contact"> Contact</Link></li>
+                <li> <Link to="/training"> Course</Link></li>
             </ul>
 
         </SideNav>
