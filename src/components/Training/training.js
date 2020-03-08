@@ -126,7 +126,7 @@ const Training = () => {
 
                 <div className="btn-wrapper">
 
-                    <Link to="/contact" className="btn btn-main">Register</Link>
+                    <a href="https://forms.gle/Xkpz3nP53wRSzhWQ6" className="btn btn-main">Register Here</a>
 
 
                 </div>

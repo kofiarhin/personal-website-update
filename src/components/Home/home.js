@@ -16,8 +16,8 @@ const Home = () => {
 
         <div className="content-wrapper">
 
-            <h1 className="main-title" data-aos="fade-left">Kofi Arhin</h1>
-            <h2 className="slug" data-aos="">Fullstack Developer And UI Designer</h2>
+            <h1 className="name" data-aos="fade-left">Kofi Arhin</h1>
+            <h2 className="job-title" data-aos="">Fullstack Developer And UI Designer</h2>
             <div className="icon-wrapper">
                 <a href="https://www.linkedin.com/in/kenneth-obu-9b49b72b/" target="_blank"><FontAwesome name="linkedin" /></a>
                 <a href="https://www.instagram.com/escodebar/" target="_blank"><FontAwesome name="instagram" /></a>
