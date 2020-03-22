@@ -39,6 +39,7 @@ const Routes = () => {
                 <Route path="/projects/shoppingCart/products/add" exact component={AddProduct} />
                 <Route path="/projects" exact component={Projects} />
                 <Route path="/" exact component={Home} />
+                <Route component={Home} />
             </Switch>
         </Layout>
 

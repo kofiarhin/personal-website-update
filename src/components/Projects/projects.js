@@ -28,6 +28,17 @@ const Projects = () => {
 
                     <div className="project-unit">
                         <div className="avatar" style={{
+                            backgroundImage: "url(./images/body-fitness.png)",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center"
+                        }}></div>
+                        <h2 className="name">Gym Website</h2>
+                        <a href="http://bodyfitnesscentergh.com/" target="_blank" className="cta"> View Demo </a>
+                    </div>
+
+
+                    <div className="project-unit">
+                        <div className="avatar" style={{
                             backgroundImage: "url(./images/food-delivery.png)",
                             backgroundSize: "cover",
                             backgroundPosition: "center"
