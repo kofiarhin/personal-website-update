@@ -9,6 +9,7 @@ AOS.init()
 
 const Home = () => {
 
+
     return <div className="home-wrapper">
 
         <Header />
